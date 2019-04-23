@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM microsoft/dotnet:2.2-sdk AS build
 
 ENV SOLIDITY_VERSION 0.5.2
 ENV SOLIDITY_DOWNLOAD_URL https://github.com/ethereum/solidity/releases/download/v$SOLIDITY_VERSION/solc-static-linux
